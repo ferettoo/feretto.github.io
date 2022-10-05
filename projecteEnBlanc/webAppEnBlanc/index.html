@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <p>Hello world</p>
-  </body>
-  <script src="js/config.js"></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <div>
+    <form name="myForm" onsubmit="validateForm()">
+      <label for="name">Name: </label>
+      <input type="text" name="name" placeholder="Facu" />
+      <br>
+      <label for="surname">Surname: </label>
+      <input type="text" name="surname" placeholder="Capurata" />
+      <br>
+      <label for="email">Email: </label>
+      <input type="email" name="email" placeholder="name@x.com" />
+      <br>
+      <label for="color">What you prefer?</label>
+      <input type="radio" name="color" />
+      <label for="green">Green</label>
+      <input type="radio" name="color">
+      <label for="blue">Blue</label>
+      <br>
+      <label for="FavColor">Favorite color: </label>
+      <input type="color" name="favColor" />
+      <br>
+      <input type="submit" name="submit">
+    </form>
+  </div>
+</body>
+<script src="js/config.js"></script>
+
 </html>
