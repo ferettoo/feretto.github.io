@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Fauna+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Fauna+One&display=swap");
+
+body {
+    background-color: #F2E9E4
+}
+
+a:hover {
+    color: #E0E1DD;
+}
 
 h1,
-h2 {
+.h2 {
+    font-family: "Cinzel", serif;
 
-    font-family: 'Cinzel', serif;
 }
 
 p {
-    font-family: 'Fauna One', serif;
+    font-family: "Fauna One", serif;
 }
