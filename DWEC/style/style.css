@@ -4,6 +4,18 @@ body {
     background-color: #F2E9E4
 }
 
+.card {
+    height: 100%;
+    transition: transform .3s;
+    box-shadow: 0 0.5rem 1.2rem rgb(0 0 0 / 20%);
+}
+
+.card:hover {
+    border: 1px solid #eaeaea;
+
+    transform: scale(1.1);
+}
+
 a:hover {
     color: #E0E1DD;
 }
